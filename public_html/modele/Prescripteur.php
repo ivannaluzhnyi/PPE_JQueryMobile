@@ -14,47 +14,30 @@ class Prescripteur{
                 $this->email = $email;
 		$this->descrip = $descrip;		
                 $this->categ = $categ;
-
 	}
 	
 	public function getId(){
-		return $this->id;
+            return $this->id;
 	}
 	
 	public function getNom(){
-		return $this->nom;
+            return $this->nom;
 	}
 	
 	public function getTel(){
-		return $this->tel;
+            return $this->tel;
 	}
         public function getEmail(){
-               return $this->email;
+            return $this->email;
 	}
 	
 	public function getDescription(){
-		return $this->descrip;
+            return $this->descrip;
 	}
         
         public function getCategPrescripteur(){
-		return $this->$categ;
+            return $this->categ;
 	}
-        
-        public function setName($name){
-            $this->nom = $name;
-        }
-        
-        public function setTel($tel){
-            $this->tel = $tel;
-        }
-        public function setEmail($email){
-            $this->email = $email;
-        }
-        
-        public function setDescrip($decrip){
-            $this->descrip = $decrip;
-        }
-        
 
 }
 ?>

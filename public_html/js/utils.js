@@ -3,6 +3,8 @@ function checkForm() {
 		if ($.trim($('#nom').val()) == "" ||
 			$.trim($('#tel').val()) == "" ||
                         $.trim($('#email').val()) == "" ||
+                        $.trim($('#login').val()) == "" ||
+                        $.trim($('#password').val()) == "" ||
 			$.trim($('#description').val()) == "") {
 				alert("Tous les champs sont obligatoire");
 				return false;
